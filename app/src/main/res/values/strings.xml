@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Watchwater</string>
+    <string name="title_map">Map</string>
+    <string name="title_notification">Notification</string>
+    <string name="title_article">Articles</string>
+    <string name="title_alert">Alert</string>
+    <string name="title_quotes">Quotes</string>
+    <string name="access_token">pk.eyJ1Ijoic3dpc2FpZjEiLCJhIjoiY2s1dmlmcHR0MGJyMzNmcnY1ZWk1YTl0NCJ9.PSpkjhsxwGANd23umtvPFA</string>
+
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="hello_blank_fragment">wqewq</string>
+    <string name="ImageItemArticleContent">content of image</string>
+    <string name="LikesNumber">2</string>
+    <string name="articleDate">28/01/2020</string>
+    <string name="profileName">souilmi saif</string>
+
+
+</resources>

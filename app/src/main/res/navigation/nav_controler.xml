@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_controler"
+    app:startDestination="@id/articleFragment">
+
+    <fragment
+        android:id="@+id/mapBoxFragment"
+        android:name="tn.swisaif.watchwater.mapbox.MapBoxFragment"
+        android:label="fragment_map_box"
+        tools:layout="@layout/fragment_map_box" />
+    <fragment
+        android:id="@+id/alertFragment"
+        android:name="tn.swisaif.watchwater.alert.AlertContainerFragment"
+        android:label="fragment_alert"
+        tools:layout="@layout/fragment_alert" />
+    <fragment
+        android:id="@+id/articleFragment"
+        android:name="tn.swisaif.watchwater.article.ArticleConteinerFragment"
+        android:label="fragment_article"
+        tools:layout="@layout/fragment_article" />
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="tn.swisaif.watchwater.notification.NotificationFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/quotesFragment"
+        android:name="tn.swisaif.watchwater.quotes.QuotesFragment"
+        android:label="fragment_quotes"
+        tools:layout="@layout/fragment_quotes" />
+    <fragment
+        android:id="@+id/detailAlert"
+        android:name="tn.swisaif.watchwater.alert.alert_fragment.DetailAlert"
+        android:label="DetailAlert" />
+    <fragment
+        android:id="@+id/eventDetails"
+        android:name="tn.swisaif.watchwater.alert.event.EventDetails"
+        android:label="EventDetails" />
+    <fragment
+        android:id="@+id/eventFragment"
+        android:name="tn.swisaif.watchwater.alert.event.EventFragment"
+        android:label="fragment_event"
+        tools:layout="@layout/fragment_event" />
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="tn.swisaif.watchwater.article.video.VideoFragment"
+        android:label="fragment_video"
+        tools:layout="@layout/fragment_video" />
+    <fragment
+        android:id="@+id/articleFragment2"
+        android:name="tn.swisaif.watchwater.article.artcle_fragment.ArticleFragment"
+        android:label="fragment_article2"
+        tools:layout="@layout/fragment_article2" />
+    <fragment
+        android:id="@+id/alertFragment2"
+        android:name="tn.swisaif.watchwater.alert.alert_fragment.AlertFragment"
+        android:label="fragment_alert2"
+        tools:layout="@layout/fragment_alert2" />
+</navigation>
